@@ -1,0 +1,138 @@
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.example.com/
+Cookie: sessionid=abc123; csrftoken=def456
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Pragma: no-cache
+Origin: https://www.example.com
+DNT: 1
+X-Forwarded-For: 192.168.1.1
+X-Forwarded-Host: example.com
+X-Forwarded-Server: example-server
+X-Real-IP: 192.168.1.1
+X-Requested-With: XMLHttpRequest
+X-Wap-Profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xml
+X-UIDH: 1234567890
+X-Csrf-Token: abcdef1234567890
+X-Content-Type-Options: nosniff
+X-Forwarded-Proto: https
+X-Http-Method-Override: PATCH
+X-ATT-DeviceId: GT-P7320/P7320XXLPG
+X-Wap-Profile-Diff: http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#
+Proxy-Connection: keep-alive
+TE: trailers, deflate
+If-Modified-Since: Thu, 01 Jan 1970 00:00:00 GMT
+If-Match: "1234567890"
+If-None-Match: "1234567890"
+If-Range: "1234567890"
+If-Unmodified-Since: Thu, 01 Jan 1970 00:00:00 GMT
+If-Redirected: true
+If-Proxy-Authenticate: Basic
+If-Request-Method: POST
+If-Request-URI: /path/to/resource
+If-Soapaction: "urn:service"
+If-Session-Expires: Thu, 01 Jan 1970 00:00:00 GMT
+If-Version: "1.0"
+If-Etag: "1234567890"
+If-A-IM: feed
+If-Delay: 10
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Expose-Headers: Content-Length, X-JSON
+Access-Control-Max-Age: 86400
+Access-Control-Request-Headers: X-Requested-With, Accept, Content-Type
+Access-Control-Request-Method: POST
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: https://www.example.com
+Access-Control-Max-Age: 3600
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept-Datetime: Thu, 01 Jan 1970 00:00:00 GMT
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Accept-Patch: application/example, text/example
+Accept-Ranges: bytes
+Age: 12345
+Allow: GET, HEAD
+Alt-Svc: h2="https://example.com:443"; ma=86400, h3-29=":443"; ma=86400
+Content-Disposition: attachment; filename="example.txt"
+Content-Encoding: gzip
+Content-Language: en-US
+Content-Length: 123
+Content-Location: /index.html
+Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ==
+Content-Range: bytes 0-499/1234
+Content-Security-Policy: default-src 'self'; script-src 'self' www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' www.google-analytics.com; font-src 'self' fonts.gstatic.com; frame-src 'self' www.youtube.com; object-src 'self'; media-src 'self'; connect-src 'self' www.google-analytics.com
+Content-Type: text/html; charset=utf-8
+Date: Thu, 01 Jan 1970 00:00:00 GMT
+Delta-Base: "base"
+ETag: "1234567890"
+Expect: 100-continue
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43
+From: example@example.com
+HTTP2-Settings: AAEAABAAAAAAAAAIAAAAAAIAAAAAA=
+Host: example.com
+If-Match: "1234567890"
+If-Modified-Since: Thu, 01 Jan 1970 00:00:00 GMT
+If-None-Match: "1234567890"
+If-Range: "1234567890"
+If-Unmodified-Since: Thu, 01 Jan 1970 00:00:00 GMT
+Last-Event-ID: 123456
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Link: </style.css>; rel=preload; as=style, </script.js>; rel=preload; as=script
+Location: https://example.com/page
+Max-Forwards: 10
+Negotiate: v1, v2, v3
+Origin: https://example.com
+P3P: CP="This is not a P3P policy!"
+Pinned-Host: example.com
+Pragma: no-cache
+Proxy-Authenticate: Basic realm="Access to the staging site"
+Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Proxy-Connection: keep-alive
+Public-Key-Pins: max-age=2592000; pin-sha256="pin1"; pin-sha256="pin2";
+Range: bytes=0-499
+Referer: https://www.example.com/
+Retry-After: 120
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: userid=12345; Expires=Thu, 01 Jan 2070 00:00:00 GMT; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Timing-Allow-Origin: *
+Trailer: Max-Forwards
+Transfer-Encoding: chunked
+Tk: ?
+Upgrade: websocket
+Vary: Accept-Encoding
+Via: 1.0 232.0.0.1, 1.1 example.com:3128 (squid/3.5.12)
+Warning: 199 Miscellaneous warning
+WWW-Authenticate: Basic realm="Access to the staging site"
+X-Content-Type-Options: nosniff
+X-DNSPrefetch-Control: off
+X-Frame-Options: DENY
+X-Powered-By: Express
+X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block
+X-WebKit-CSP: default-src 'self' example.com; script-src 'self' example.com
+X-WebKit-CSP-Report-Only: default-src 'self' example.com; script-src 'self' example.com; report-uri /csp_report
+X-WebKit-Content-Security-Policy: default-src 'self' example.com; script-src 'self' example.com
+X-WebKit-Content-Security-Policy-Report-Only: default-src 'self' example.com; script-src 'self' example.com; report-uri /csp_report
+X-WebKit-Expect-CT: max-age=0, report-uri="https://example.com/report"
+X-WebKit-Referrer-Policy: no-referrer-when-downgrade
+X-WebKit-Transition: content
+X-Content-Security-Policy-Report-Only: default-src 'self'; report-uri /csp-violation-report-endpoint/
+X-Content-Security-Policy: default-src 'self'; script-src 'self' example.com; report-uri /csp-report-endpoint/
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Powered-By: Express
+X-AspNet-Version: 4.0.30319
+X-Cascade: pass
+X-Request-Id: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-Runtime: 0.040100
+X-Rack-Cache: miss
+X-Permitted-Cross-Domain-Policies: none
